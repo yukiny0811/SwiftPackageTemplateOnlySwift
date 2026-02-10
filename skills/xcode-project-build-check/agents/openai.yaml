@@ -1,4 +1,0 @@
-interface:
-  display_name: "Xcode Build Check"
-  short_description: "Run MCP-first build+test checks and open Xcode if needed"
-  default_prompt: "After Swift/Xcode edits, run swift build, then use Xcode MCP for build/test; if no workspace/project is open, open the .xcworkspace (or .xcodeproj) and retry MCP before falling back to workspace-first xcodebuild build/test, then fix failures and report outcomes."
