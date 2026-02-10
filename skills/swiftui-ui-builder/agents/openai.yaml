@@ -1,0 +1,4 @@
+interface:
+  display_name: "SwiftUI UI Builder"
+  short_description: "Build SwiftUI UI with #Preview and MCP preview snapshots"
+  default_prompt: "Create or edit SwiftUI UI, include #Preview whenever possible, and after editing any file with #Preview use Xcode MCP RenderPreview (opening workspace/project first if needed) and save snapshots next to the source file as SwiftFileName_PreviewName.png."
