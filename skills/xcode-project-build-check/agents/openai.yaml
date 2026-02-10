@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xcode Build Check"
+  short_description: "Run required Swift/Xcode build checks after edits"
+  default_prompt: "After making Swift/Xcode changes, run swift build and xcodebuild with workspace-first logic, fix build errors, and report results."
